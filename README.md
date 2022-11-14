@@ -1,2 +1,2 @@
 # CGV_clone coding
-Zara homepage clone coding
+CGV homepage clone coding
