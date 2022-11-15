@@ -4,36 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/CGV_main sourcecode.css" />
     <title>CGV clone</title>
   </head>
 
   <body>
     <header>
       <!-- header content -->
-      <div>
+      <div class="display_flex_center" id="header-content">
         <div>
           <!-- logo -->
-          <a href="">
-            <img src="" alt="" />
-          </a>
+          <img src="./assets/imgs/logoRed.png" alt="CGV" id="mainlogo" />
           <!-- Cultureplex -->
           <span>CULTUREPLEX</span>
         </div>
 
         <!-- member info -->
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+        <ul class="display_flex_center">
+          <div>
+            <img src="./assets/imgs/hyundaicard.png" alt="hyundaicard" />
+          </div>
+          <li class="header-memberInfo">
+            <a href=""
+              ><img src="./assets/imgs/loginPassword.png" alt="loginPassword" />
+              <span>로그인</span>
+            </a>
+          </li>
+          <li class="header-memberInfo"
+            <a href=""
+              ><img src="./assets/imgs/loginJoin.png" alt="loginJoin" />
+              <span>회원가입</span>
+            </a>
+          </li>
+          <li class="header-memberInfo">
+            <a href=""
+              ><img src="./assets/imgs/loginMember.png" alt="loginMember" />
+              <span>MY CGV</span>
+            </a>
+          </li>
+          <li class="header-memberInfo">
+            <a href=""
+              ><img src="./assets/imgs/loginCustomer.png" alt="loginCustomer" />
+              <span>고객센터</span>
+            </a>
+          </li>
+        </ul>
       </div>
 
-      <div>
-        <!-- header nav -->
+      <!-- header nav -->
+      <div class="display_flex_center" id="header-nav">
         <nav>
-          <ul>
+          <ul class="display_flex_center">
             <li>영화</li>
             <li>극장</li>
             <li>예매</li>
@@ -44,8 +65,10 @@
         </nav>
 
         <!-- Search  -->
-        <input type="text" />
-        <button></button>
+        <div>
+          <input type="text" />
+          <button></button>
+        </div>
       </div>
     </header>
     <main></main>

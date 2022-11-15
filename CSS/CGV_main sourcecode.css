@@ -1,0 +1,31 @@
+@import "./reset.css";
+
+.display_flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-content {
+  justify-content: space-between;
+}
+
+#mainlogo {
+  width: 117px;
+}
+
+.header-memberInfo {
+  width: 36px;
+}
+
+.header-memberInfo img {
+  width: 36px;
+}
+
+.header-memberInfo span {
+  font-size: 13px;
+}
+
+#header-nav {
+  justify-content: space-between;
+}
