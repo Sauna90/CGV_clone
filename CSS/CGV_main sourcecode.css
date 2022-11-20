@@ -1,4 +1,4 @@
-@import "./reset.css";
+@import './reset.css';
 
 .display_flex_center {
   display: flex;
@@ -28,4 +28,149 @@
 
 #header-nav {
   justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+main {
+  width: 1700px;
+}
+
+#con1 {
+  width: 1000px;
+  padding: 30px 30px;
+}
+
+#con1 > h2 {
+  font-size: 25px;
+}
+
+.img {
+  width: 700px;
+}
+
+.img > img {
+  width: 450px;
+  height: 25%;
+  position: absolute;
+  margin-top: 15px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 60px;
+  margin-left: 480px;
+}
+
+.text li {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text li > p {
+  font-size: 15px;
+  color: gray;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text li:hover {
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* con2 */
+
+#con2 {
+  width: 1000px;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.con2 {
+  width: 310px;
+  height: 400px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.title {
+  display: flex;
+  padding: 20px 20px;
+}
+
+.title > h2 {
+  font-size: 20px;
+  display: flex;
+}
+
+.title > h6 {
+  font-size: 13px;
+  color: gray;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 120px;
+}
+
+.coupone {
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.coupone > img {
+  width: 30%;
+}
+
+.c-title {
+  margin-top: 20px;
+}
+
+.c-title > h6 {
+  font-size: 13px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.c-title > h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+/* con3 */
+#con3 {
+  width: 750px;
+  padding: 30px 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.con3-1,
+.con3-2 {
+  width: 600px;
+  display: flex;
+}
+
+.con3-1 > h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.con3-1 > h6 {
+  font-size: 15px;
+  font-weight: 300;
 }
